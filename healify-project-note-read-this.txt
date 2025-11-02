@@ -1,0 +1,26 @@
+Data on
+/constants/data
+
+Templates & Components on
+/components/*
+
+Application on
+/app/*
+    Home Page on
+    /app/index.tsx
+    Medicine Page on
+    /app/medicine/index.tsx
+    Diagnosis Page on
+    /app/diagnosis/index.tsx
+	Diagnosis Assessment on
+	/app/diagnosis/diagnose/[options].tsx
+Side Pages on
+/app/category/*
+
+<Pressable> is a pressable component or a button
+<Text> is a text component
+<View> is a container
+<ScrollView> is a scrollable container
+<FlatList> is a ListView or list component
+
+className attribute values are tailwindcss

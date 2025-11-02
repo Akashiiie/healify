@@ -13,11 +13,17 @@ export default function Home(){
     return (
 	<SafeAreaView edges={['bottom','left','right']} >
 	<ScrollView className={className.home} contentContainerStyle={{paddingBottom : 16}}>
+		{/* two buttons */}
 	    <View className={className.body_header}>
 		<Link href="/medicine" className={className.header_button}>Medicine</Link>
 		<Link href="/diagnosis" className={className.header_button}>Diagnosis</Link>
 	    </View>
+
+		{/* main body */}
 	    <View className={className.main_body}>
+
+
+		    {/* This Month */}
 		<CardGraphic href="/category/virus/seasonal" source={require("@/assets/images/virus.png")} title="This Month" subtitle="Seasonal Virus" className="mb-4">
 		    <Pressable
 			    className={className.graphicButton}
@@ -30,6 +36,8 @@ export default function Home(){
 			<Text className={className.graphicButtonText}>{virus.name}</Text>
 		    </Pressable>
 		</CardGraphic>
+
+		    {/* Seasonal Card View */}
 		<CardView title="Seasonal Virus" href="/category/virus/seasonal">
 		    <Pressable onPress={() => router.push("/category/virus/seasonal")}>
 			<View style={{height:220, borderRadius : 12,overflow : "hidden"}}>
