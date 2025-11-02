@@ -41,7 +41,15 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      [
+	"expo-asset",
+	{
+	    "assets" : [
+		"./assets/images/medicine",
+	    ],
+	}
+      ],
     ],
     "experiments": {
       "typedRoutes": true,

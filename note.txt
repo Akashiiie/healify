@@ -1,0 +1,28 @@
+[11 AM - 4PM]
+article content & page card
+    tips *content
+    common virus *content
+    seasonal virus *content
+	month *content
+(polish)
+
+[5PM - 10PM]
+medicine ~2hrs
+    *content
+    search function
+diagnosis
+    *symptoms
+    *assessment
+	recommendation
+    [9PM - 11PM]
+    detailed recommendation
+
+[11 PM - 12AM]
+user settings
+
+[12AM - 2AM]
+polish styling
+    background
+    color
+    add icon
+routing

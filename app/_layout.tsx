@@ -28,7 +28,7 @@ export default function RootLayout() {
 		    name="index"
 		    options={{
 			title : "Healify",
-			headerRight : () => <Link href="/user-settings"><MaterialIcons name="settings" size={24}/></Link>
+			// headerRight : () => <Link href="/user-settings"><MaterialIcons name="settings" size={24}/></Link>
 		    }}
 		/>
 		<Stack.Screen
@@ -46,7 +46,7 @@ export default function RootLayout() {
 		<Stack.Screen
 		    name = "medicine"
 		    options={{
-			title : "Medicine",
+			headerShown : false
 		    }}
 		/>
 
@@ -58,6 +58,9 @@ export default function RootLayout() {
 		/>
 		<Stack.Screen
 		    name = "category"
+		    options={{
+			headerShown : false
+		    }}
 		/>
 	    </Stack>
 	    <StatusBar style="auto" />

@@ -1,0 +1,18 @@
+{
+    medicineId : 0,
+    name : "" ,
+    image : "",
+    description : "",
+    availability : {
+	overTheCounter : boolean,
+	controlled : boolean,
+    },
+    usedFor : [
+	{
+	    optgroup :"",
+	    options: [
+		"",
+	    ]
+	},
+    ],
+},

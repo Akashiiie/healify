@@ -49,10 +49,16 @@ export function DiagnosisSymptoms({options,assessHref} : Props){
 	    <View className={className.assessBtnContainer}>
 		<Pressable
 		    onPress={
-			() => router.navigate({
-			    pathname : assessHref,
-			    params : { options : JSON.stringify(optionsState) }
-			})
+			() => {
+			    if (
+				Object.entries(optionsState).some(([optgroup, symptoms]) => Object.entries(symptoms).some(([symptom,flag]) => flag))
+			    ){
+				router.navigate({
+				    pathname : assessHref,
+				    params : { options : JSON.stringify(optionsState) }
+				});
+			    }
+			}
 		    }
 		    className={className.assessBtn}
 		>

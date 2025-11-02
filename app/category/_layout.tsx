@@ -3,15 +3,18 @@ import { View,Text } from "react-native";
 export default function Layout(){
     return (
 	<Stack
-	    screenOptions={{
-		headerShown : false
-	    }}
 	>
 	    <Stack.Screen
-		name = "virus"
+		name = "Virus"
+		options={{
+		    headerShown : true
+		}}
 	    />
 	    <Stack.Screen
 		name = "tips"
+		options={{
+		    title : "Health Tips"
+		}}
 	    />
 	</Stack>
     );

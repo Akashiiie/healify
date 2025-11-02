@@ -10,6 +10,9 @@ export default function Layout(){
 	    <Stack.Screen
 		name = "seasonal"
 	    />
+	    <Stack.Screen
+		name = "common"
+	    />
 	</Stack>
     );
 }
