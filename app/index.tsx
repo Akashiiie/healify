@@ -30,13 +30,6 @@ export default function Home(){
 			<Text className={className.graphicButtonText}>{virus.name}</Text>
 		    </Pressable>
 		</CardGraphic>
-		{/* <CardView title="Common Ailments" href="/category/virus/common">	     */}
-		{/*     <Pressable onPress={() => router.push("/category/virus/common")} > */}
-		{/* 	<View style={{height:220, borderRadius : 12,overflow : "hidden"}}> */}
-		{/* 	    <Image source={require("@/assets/images/common.png")} style={{height:"100%", objectFit:"cover",contentFit:"cover"}}/> */}
-		{/* 	</View> */}
-		{/*     </Pressable> */}
-		{/* </CardView> */}
 		<CardView title="Seasonal Virus" href="/category/virus/seasonal">
 		    <Pressable onPress={() => router.push("/category/virus/seasonal")}>
 			<View style={{height:220, borderRadius : 12,overflow : "hidden"}}>
